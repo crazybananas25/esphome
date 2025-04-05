@@ -31,7 +31,6 @@ ${platform}:
     type: ${framework}
 preferences:
   flash_write_interval: "24h"
-
 api:
   services:
     - service: read
