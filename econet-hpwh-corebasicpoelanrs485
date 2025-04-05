@@ -8,10 +8,7 @@ esp32:
   framework: 
     type: esp-idf
 packages:
-  econet:
-    url: https://github.com/crazybananas25/esphome/tree/main/.github/workflows
-    ref: main
-    file: econet_heatpump_water_heater_ethernet.yaml
+  esphome-econet.esphome-econet: github://crazybananas25/esphome/econet_heatpump_water_heater_ethernet.yaml@main
 substitutions:
   tx_pin: GPIO17
   rx_pin: GPIO16
