@@ -1,5 +1,5 @@
 packages:
-  esphome-econet.esphome-econet: github://crazybananas25/esphome/new/main/.github/workflows/econet-hpwh-corebasicpoelanrs485.yaml@main
+  esphome-econet.esphome-econet: github://crazybananas25/esphome/main/.github/workflows/econet-hpwh-corebasicpoelanrs485.yaml@main
 esphome:
   name: hot-water-tank-1
   friendly_name: Hot Water Tank 1
@@ -8,7 +8,12 @@ esp32:
   board: m5stack-grey
   variant: ESP32
   framework: 
-    type: esp-idf      
+    type: esp-idf
+packages:
+  econet:
+    url: https://github.com/crazybananas25/esphome/emain/.github/workflows/econet-hpwh-corebasicpoelanrs485
+    ref: main
+    file: econet_heatpump_water_heater_ethernet.yaml
 substitutions:
   tx_pin: GPIO17
   rx_pin: GPIO16
