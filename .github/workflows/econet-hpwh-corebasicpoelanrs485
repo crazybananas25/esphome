@@ -1,5 +1,3 @@
-packages:
-  esphome-econet.esphome-econet: github://crazybananas25/esphome/main/.github/workflows/econet-hpwh-corebasicpoelanrs485.yaml@main
 esphome:
   name: hot-water-tank-1
   friendly_name: Hot Water Tank 1
@@ -11,7 +9,7 @@ esp32:
     type: esp-idf
 packages:
   econet:
-    url: https://github.com/crazybananas25/esphome/emain/.github/workflows/econet-hpwh-corebasicpoelanrs485
+    url: https://github.com/crazybananas25/esphome/tree/main/.github/workflows
     ref: main
     file: econet_heatpump_water_heater_ethernet.yaml
 substitutions:
