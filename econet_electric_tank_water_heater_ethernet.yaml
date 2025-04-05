@@ -6,7 +6,7 @@ substitutions:
   sensor_power_filters_lambda: return x;
 
 packages:
-  econet: !include econet_base_ethernet.yaml
+  econet: !include econet_baseethernet.yaml
 
 econet:
   dst_address: 0x1200
