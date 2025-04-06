@@ -23,4 +23,4 @@ This picture below is the example of a pinmap from m5stack. You can sometimes fi
 **USING THIS DEVICE AND MODULE PAIR AS A rs485 BUS FOR rs485 SENSORS**
 
 
-to be continued, reference https://community.home-assistant.io/t/modbus485-sht30-rh-and-temp-sensor-with-atoms3lite/866825/6 to get started
+to be continued, reference https://community.home-assistant.io/t/modbus485-sht30-rh-and-temp-sensor-with-atoms3lite/866825/6 and https://community.home-assistant.io/t/entities-available-on-wifi-component-but-not-on-ethernet-component/872677 to get started
